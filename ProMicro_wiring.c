@@ -1,26 +1,34 @@
 /*
  * wiring to Pro Micro
  * -------------------
- * IOREF    n/c
- * RESET    n/c
- * 3.3v     n/c
- * 5v       red
- * Gnd      blu/blk
- * Gnd      blk, wht/blk, ora/blk
+
  * 
- * A0..A5   n/c
- * 
- * 0(RX)    n/c
- * 1(TX)    n/c
+ * (Left Side Pins)
+ * TX0      n/c
+ * RX1      n/c
+ * GND
+ * GND
  * 2        grn           Encoder A
  * 3        wht           Encoder B
  * 4        yel           X
  * 5        yel/blk       Y
  * 6        brn           Z
  * 7        brn/blk       A
- * 
  * 8        gry           x1
  * 9        gry/blk       x10
- * 10       ora           x100
+ * 
+ * (Right Side Pins)
+ * Raw      n/c
+ * GND      blk, wht/blk, ora/blk
+ * RST      n/c
+ * VCC      red
+ * A3       n/c
+ * A2       n/c
+ * A1       n/c
+ * A0       n/c
+ * 15
+ * 14
  * 16       grn/blk       LED+
+ * 10       ora           x100
+ * 
  */
